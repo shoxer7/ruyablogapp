@@ -1,0 +1,27 @@
+{% extends "ruyagunlugulayout.html" %}
+
+{% block body %}
+
+    
+      <!-- Post Content Column -->
+      
+
+  <!-- Title -->
+        <div class="card">
+        <h1 class="card-header">{{ruyagunluk.title}} 
+            <a href="/ruyagunluk/update/{{ruyagunluk.id}}" class="btn btn-primary">Güncelle</a>
+            <a href="/ruyagunluk/delete/{{ruyagunluk.id}}" class="btn btn-primary">Sil</a>
+     </h1>
+        
+  <!-- Post Content -->      
+        <div class="card-body ruyatabiridetay">
+        <p class="card-text">{{ruyagunluk.content|safe}}</p>
+        </div>
+        </div>  
+    
+ 
+    <!-- /.row -->
+
+
+
+{% endblock body %}

@@ -1,0 +1,26 @@
+{% extends "layout.html" %}
+
+{% block body %}
+<br>
+    
+      <!-- Post Content Column -->
+      
+
+  <!-- Title -->
+        <div class="card ">
+        <h1 class="card-header ">{{ruyatabiri.title}}</h1>
+  <!-- Post Content -->      
+        <div class="card-body ruyatabiridetay">
+        <p class="card-text ">{{ruyatabiri.content|safe}}</p>
+        </div>
+        </div>
+
+      
+      
+ 
+
+    <!-- /.row -->
+
+
+
+{% endblock body %}
