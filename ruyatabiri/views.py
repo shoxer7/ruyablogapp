@@ -11,7 +11,7 @@ class BlogSitemap(Sitemap):
     def lastmod(self,obj):
         return obj.created_date
     def location(self,obj):
-        return obj.title
+        return obj.id
 
 
 def index(request):
