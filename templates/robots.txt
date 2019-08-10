@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Disallow: /admin
+Disallow: /ruyagunluk
+Disallow: /user
+Sitemap: http://ruyatabirlerim.net/ruyatabiri/sitemap.xml
